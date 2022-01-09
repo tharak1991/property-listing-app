@@ -13,6 +13,8 @@ import { FooterComponent } from './footer/footer.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { ListingsComponent } from './listings/listings.component';
+// import { PropertyComponent } from './property/property.component';
 
 
 export const routes: Routes = [
@@ -23,7 +25,10 @@ export const routes: Routes = [
   { path: 'signin', component: SigninComponent, },
   
   { path: 'signup', component: SignupComponent, },
+
+  // { path: 'listings', component: ListingsComponent, },
   
+  // { path: 'property/:propertyId', component: PropertyComponent, },
   
   { path: '**', component: PagenotfoundComponent },
 ];
